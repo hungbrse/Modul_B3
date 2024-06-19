@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        display: flex;
+        flex-direction: column;
+        max-width: 250px;
+      }
+      input {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label for="name">Ho va ten</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="numberPhone">So dien thoai</label>
+      <input type="tel" id="numberPhone" name="numberPhone" />
+
+      <label for="genDer">Gioi tinh</label>
+      <div>
+        <input type="radio" id="genDer" name="Nam" /> Nam
+        <input type="radio" id="genDer" name="Nu" /> Nu
+      </div>
+
+      <input type="submit" value="Dang Ky" />
+    </form>
+  </body>
+</html>

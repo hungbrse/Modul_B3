@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      form {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      label {
+        width: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dang ky hoc vien</h1>
+
+    <form action="">
+      <div>
+        <label for="name">Ho Va Ten</label>
+        <input type="text" id="name" name="name" />
+      </div>
+
+      <div>
+        <label for="birthDay">Ngay sinh</label>
+        <input type="text" id="birthDay" name="birthDay" />
+      </div>
+
+      <div>
+        <label for="genDer">Gioi Tinh</label>
+        <input type="checkbox" id="genDer" name="genDer" />Nam
+        <input type="checkbox" id="genDer" name="genDer" />Nu
+      </div>
+
+      <div>
+        <label for="address">Dia chi</label>
+        <textarea name="address" id="address"></textarea>
+      </div>
+
+      <div>
+        <label for="class">lop</label>
+
+        <select name="class" id="class">
+          <option value="">Chon Lop</option>
+          <option value="1">1</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+      </div>
+
+      <div>
+        <label for="numberPhone">DienThoai</label>
+        <input type="tel" id="numberPhone" name="numberPhone" />
+      </div>
+
+      <div>
+        <input type="submit" value="Dang ky" />
+        <input type="reset" value="Nhap lai" />
+      </div>
+    </form>
+  </body>
+</html>
